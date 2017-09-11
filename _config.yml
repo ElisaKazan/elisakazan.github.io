@@ -17,7 +17,7 @@ name: Elisa Kazan
 email: elisa.kazan@gmail.com
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://elisakazan.github.io"
+url: "https://elisakazan.github.io"
 
 twitter_username: elisakazan
 github_username: elisakazan
