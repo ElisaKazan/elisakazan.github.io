@@ -149,7 +149,7 @@ body {
 
 @media (min-width:992px) {
     #mainNav {
-        border-color:rgba(255,255,255,.3);
+        border-color:rgba(255,255,255,.5);
         background-color:transparent
     }
 
@@ -163,7 +163,7 @@ body {
     }
 
     #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-        color:rgba(255,255,255,.7)
+        color:rgba(255,255,255, 0.7)
     }
 
     #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
@@ -171,7 +171,7 @@ body {
     }
 
     #mainNav.navbar-shrink {
-        border-color:rgba(34,34,34,.05);
+        border-color:rgba(34,34,34,.75);
         background-color:#fff
     }
 
@@ -199,7 +199,9 @@ header.masthead {
     min-height:auto;
     text-align:center;
     color:#fff;
+    background-color: #222222;
     background-image:url(../assets/images/green.jpg);
+    opacity: 0.75;
     background-position:center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
