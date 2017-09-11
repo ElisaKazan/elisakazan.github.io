@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    min-height: 100vh;
+}
+
+#img-wrapper {
+    //background-image: url("/assets/images/green.jpg");
+    //background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    img{
+        object-position: center;
+        //object-fit:none;
+        top: -125px;
+        width: 420px;
+        position: relative;
+        min-width: 100%;
+        z-index: -1;
+        min-height: 100vh;
+        object-fit:cover;
+    }
+
+    @media(max-width:460px) {
+        img{
+            //TODO: Move the photo to the left more
+        }
+    }
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    color: #FEFEFE;
+    text-align: center;
+    padding-top: 30%;
+
+}
