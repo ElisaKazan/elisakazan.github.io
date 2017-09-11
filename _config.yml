@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 name: Elisa Kazan
 email: elisa.kazan@gmail.com
+phone: 613-371-9996
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elisakazan.github.io"
@@ -36,14 +37,3 @@ sass:
     style: compressed
     sass_dir: _sass
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
