@@ -32,14 +32,18 @@ hr.light {
 }
 
 a {
-    color:var(--secondary-light);
+    color:var(--main-dark);
     -webkit-transition:all .2s;
     -moz-transition:all .2s;
     transition:all .2s
 }
 
+#bold {
+    font-weight: bold;
+}
+
 a:focus, a:hover {
-    color:var(--secondary-dark)
+    color:var(--secondary-light)
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -66,7 +70,7 @@ p {
 }
 
 .text-faded {
-    color:rgba(255,255,255,.7)
+    color:rgba(255,255,255,.85)
 }
 
 section {
